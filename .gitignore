@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Volatility 3 (Cloned Repo)
+# We ignore this because users should run setup_env.py to get it, 
+# or you can choose to commit it if you want it vendored. 
+# Standard practice is usually to ignore dependencies, but since this is a specific clone...
+# Let's ignore it to keep the repo light, as setup_env.py handles it.
+volatility3/
+
+# Data
+*.raw
+*.dmp
+*.vmem
+*.img
+
+# Reports
+investigation_report.html
+
+# IDEs
+.vscode/
+.idea/

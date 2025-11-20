@@ -1,0 +1,5 @@
+openai
+rich
+# We will install volatility3 from source in the setup script, 
+# but listing it here for completeness if available on PyPI (it is, but source is often better for latest plugins)
+volatility3
